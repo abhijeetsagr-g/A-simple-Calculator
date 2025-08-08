@@ -1,16 +1,30 @@
-# calculator
+# A Simple Calculator
 
-A new Flutter project.
+A clean and easy-to-use calculator app built using **Flutter**. It supports basic arithmetic operations and allows users to copy the result to the clipboard with a tap.
 
-## Getting Started
+---
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- ✅ Basic arithmetic operations: `+`, `-`, `×`, `÷`
+- 📋 Copy result to clipboard with one tap
+- 📱 Clean and responsive UI
+- 💡 Built with Flutter
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshot
+![photo_2025-08-08_13-33-55](https://github.com/user-attachments/assets/f67fb60e-5328-43a1-adaf-566af737fa72)
+
+---
+
+## 🛠️ Getting Started
+
+To install it to your phone:
+
+```bash
+adb connect <your_ip>:<your_port>
+git clone https://github.com/your-username/simple-calculator.git
+cd simple-calculator
+adb install app-release.apk
+```
