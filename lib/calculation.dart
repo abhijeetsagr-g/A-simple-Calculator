@@ -1,7 +1,11 @@
 String calculate(String expression) {
   List<String> tokens = tokenize(expression);
   List<String> postfix = infixToPostfix(tokens);
-  double result = evaluatePostfix(postfix);
+  String result = evaluatePostfix(postfix).toString();
+  if (result.endsWith('.0')) {
+    result = result.replaceAll('.0', '');
+  }
+
   return result.toString();
 }
 
